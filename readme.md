@@ -14,7 +14,7 @@ This repository contains two off-chain programs designed for the Solana blockcha
   - Freezing token account for non-whitelisted address
   - Customizable to fit specific monitoring needs
 
-[Click here for more details on spl-token-monitor](./spl-token-monitor/README.md)
+[Click here for more details on spl-token-monitor](./spl-token-monitor/readme.md)
 
 ### spl-token-x
 
@@ -24,7 +24,7 @@ This repository contains two off-chain programs designed for the Solana blockcha
   - Optional lamport specification for transaction prioritization
   - Improved transaction success rates during network congestion
 
-[Click here for more details on spl-token-x](./spl-token-x/README.md)
+[Click here for more details on spl-token-x](./spl-token-x/readme.md)
 
 ## License
 
