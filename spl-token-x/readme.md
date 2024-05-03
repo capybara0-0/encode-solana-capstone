@@ -15,6 +15,10 @@ This version of the SPL-Token-CLI tool is a modified edition of the original too
 - Rust
 - solana-cli
 
+## Installation
+1. After installing the repository navigate to `spl-token-x` root directory.
+2. Run this command `cargo install --bin spl-token-x --path "solana-token-x/token/cli"`
+
 ## Usage
 
 Use this tool as you would the original SPL-token-cli tool. Common commands include:
@@ -36,14 +40,7 @@ Use this tool as you would the original SPL-token-cli tool. Common commands incl
   ```bash
   spl-token-x --help
   ```
-
-## Modifications
-
-Here are the key modifications made:
-
-- **Transaction Retry Logic:** Includes a more robust retry mechanism to manage transactions during network congestion.
-- **Error Handling Improvements:** Enhanced error handling to provide clearer error messages and troubleshooting steps during failures.
-
+  
 ## Acknowledgments
 
 - Original tool by Solana Labs. [ https://github.com/solana-labs/solana-program-library ]
